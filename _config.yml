@@ -35,8 +35,8 @@ links:
     url: /series
   - title: Tags
     url: /tags
-  - title: About Me
-    url: /about
+  - title: About Us
+    url: http://team.inria.fr/spirals
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
