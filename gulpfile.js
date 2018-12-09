@@ -55,11 +55,11 @@ gulp.task('stylus', function(){
 			use:[koutoSwiss(), prefixer(), jeet(), rupture()],
 			compress: true
 		}))
-		// .pipe(gulp.dest('assets/css/'))
-		.pipe(gulp.dest('_includes'))
+		.pipe(gulp.dest('assets/css/'))
+		// .pipe(gulp.dest('_includes'))
 		.pipe(browserSync.reload({stream:true}))
-		.pipe(gulp.dest('_includes'))
-		// .pipe(gulp.dest('assets/css'));
+		// .pipe(gulp.dest('_includes'))
+		.pipe(gulp.dest('assets/css'));
 });
 
 /**
