@@ -55,9 +55,11 @@ gulp.task('stylus', function(){
 			use:[koutoSwiss(), prefixer(), jeet(), rupture()],
 			compress: true
 		}))
-		.pipe(gulp.dest('_site/assets/css/'))
+		// .pipe(gulp.dest('assets/css/'))
+		.pipe(gulp.dest('_includes'))
 		.pipe(browserSync.reload({stream:true}))
-		.pipe(gulp.dest('assets/css'));
+		.pipe(gulp.dest('_includes'))
+		// .pipe(gulp.dest('assets/css'));
 });
 
 /**
@@ -97,3 +99,6 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
+
+// build to deploy
+gulp.task('build', ['js', 'stylus', 'jekyll-build']);
