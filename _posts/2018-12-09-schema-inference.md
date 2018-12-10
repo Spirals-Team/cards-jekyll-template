@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Inférence des schémas de données des réseaux sociaux"
+title: "Inferring Data Schemas from RESTful Exchanges"
 date: 2018-12-09 15:27:25
 image: '/assets/img/'
 description: Pierre Bourhis
@@ -11,25 +11,24 @@ tags:
 - data
 - social network
 categories:
-- research
+- Research
+- Internship
 # twitter_text:
 introduction: Ce projet vise à déterminer l'organisation des données à partir des contenus exposés par des API REST.
 ---
-# Contexte
 
-Ce stage de fin d’étude s’inscrit dans le cadre du projet Momentum «_Gérer vos données sans fuite d'information_» financé par le CNRS et porté par Pierre Bourhis. Ce projet vise à renforcer le respect de l’intimité des usagers sur Internet en identifiant des fuites potentielles d’informations privées et en proposant des contre-mesures efficaces pour mieux maîtriser la nature des données personnelles qui peuvent être accédées par des tiers non-autorisés. Ce projet revêt donc un enjeu sociétal pour l’ensemble de la population.
+# Context
+This research internship is part of the Momentum project "_Managing your data without leakage of information_" funded by the CNRS and coordinated by Pierre Bourhis. This project aims to strengthen the privacy of users on the Internet by identifying potential leaks of private information and proposing effective countermeasures to better control the nature of personal data that can be accessed by unauthorized third parties. This project therefore addresses a social issue for the entire population.
 
-# Problématique
+Social networks, like other web applications, are now massively adopting the REST architectural style as an API design standard that allow them to share information with authorized third parties. While this mediation layer between the third parties and the database plays the role of controlling access to the nature of the data that a third party can retrieve, it can also reveal information about the structure of the database to the database.
 
-Les réseaux sociaux, comme d’autres applications web, adoptent désormais en masse le style architectural REST comme un standard de conception des APIs qui leurs permettent de partager des informations avec des tiers autorisés. Alors que cette couche de médiation entre les tiers et la base de données joue le rôle de contrôle d’accès à la nature des données qu’un tiers peut récupérer, elle peut également révéler des informations sur la structure de la base de données à l’insu du système hébergeant cette dernière.
+To answer this problem, we want to study to what extent a database schema can be learned from the exchange protocol imposed by a REST API, thus making it possible to establish links between data that is not shared _a priori_.
 
-Pour répondre à cette problématique, nous souhaitons donc étudier dans quelle mesure un schéma de base de données peut être appris à partir du protocole d’échange imposé par une API REST, permettant ainsi d’établir des liens entre des données qui ne sont pas partagées _a priori_.
-# Travail à effectuer
-Nous proposons notamment l’identification de règles logiques permettant d’extraire un schéma de base de données en nous appuyant sur les traces d’échanges de requêtes-réponses produites à partir d’une API REST.
+# Objectives
+In particular, we propose the identification of logical rules to extract a database schema by relying on the traces of request-response exchanges produced from a REST API.
 
-Ces traces d’échanges pourront être obtenues par un robot HTTP (_e.g._, Chrome headless) qui explorera l’API REST d’un site donné pour observer les échanges d’informations entre un client et une application web.
+These traces of exchanges can be obtained by an HTTP robot (_e.g._, Chrome headless) that will explore the REST API of a given site to observe the exchange of information between a client and a web application.
 
-Dans un deuxième temps, ces traces constitueront un jeu de données brutes sur lequel des règles d’extractions pourront être identifiées afin d’inférer un schéma probable des données stockées en base de données.
+In a second step, these traces will constitute a raw data set on which extraction rules can be identified in order to infer a probable schema of the data stored in database.
 
-Enfin, l’identification de ce schéma servira non seulement i) à mettre en évidence des failles potentielles vis-à-vis de l’intimité des usagers mais aussi ii) à émettre des recommandations aux développeurs des applications web pour renforcer les stratégies de contrôle d’accès aux données.
-
+Finally, the identification of this schema will serve not only _i)_ to highlight potential vulnerabilities to the privacy of users but also _ii)_ to make recommendations to developers of web applications to strengthen control strategies access to data.

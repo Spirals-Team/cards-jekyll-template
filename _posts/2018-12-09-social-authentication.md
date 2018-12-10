@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Réconciliation des réseaux sociaux"
+title: "Reconciliating Social Networks"
 date: 2018-12-09 15:27:36
 image: '/assets/img/'
 description: Pierre Bourhis
@@ -11,22 +11,20 @@ tags:
 - data
 - social network
 categories:
-- research
-- privacy
+- Research
+- Internship
 # twitter_text:
-introduction:
+introduction: This project aims at identifying 
 ---
 
-# Contexte
+# Context
 
-Ce stage de fin d’étude s’inscrit dans le cadre du projet Momentum «_Gérer vos données sans fuite d'information_» financé par le CNRS et porté par Pierre Bourhis. Ce projet vise à renforcer le respect de l’intimité des usagers sur Internet en identifiant des fuites potentielles d’informations privées et en proposant des contre-mesures efficaces pour mieux maîtriser la nature des données personnelles qui peuvent être accédées par des tiers non-autorisés. Ce projet revêt donc un enjeu sociétal pour l’ensemble de la population.
+This research internship is part of the Momentum project "_Managing your data without leakage of information_" funded by the CNRS and coordinated by Pierre Bourhis. This project aims to strengthen the privacy of users on the Internet by identifying potential leaks of private information and proposing effective countermeasures to better control the nature of personal data that can be accessed by unauthorized third parties . This project therefore addresses a societal issue for the entire population.
 
-# Problématique
+Many web applications—including specialized social networks-now offer users the ability to authenticate using their Facebook (or Google or other) account and import some data to feed a user profile, for example. However, these data may be indirectly exposed by weaker web sites and thus help to create implicit links between different profiles of the same person, thus revealing potentially intimate information.
 
-Nombre d’applications web—y compris de réseaux sociaux spécialisés—proposent désormais aux utilisateurs de s’authentifier en utilisant leur compte Facebook (ou Google ou autre) et d’importer certaines données pour alimenter un profil utilisateur, par exemple. Cependant, ces données peuvent être indirectement être exposées par des sites tiers et ainsi contribuer à créer des liens implicites entre les différents profils d’une même personne, révélant ainsi des informations potentiellement intimes.
+# Objective
 
-# Travail à effectuer
-À une échelle locale, nous proposons notamment d’adopter une approche logique pour modéliser les données des réseaux sociaux et les liens potentiels entre ceux-ci.
+At a local level, we propose a logical approach to modeling social network data and potential links between them.
 
-À une échelle globale, nous proposons d’identifier les stratégies de contrôle d’accès aux données selon le profil d’un utilisateur (extérieur, authentifié, etc.).
-
+On a global scale, we propose to identify the data access control strategies according to a user's profile (external, authenticated, etc.).

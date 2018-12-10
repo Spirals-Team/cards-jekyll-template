@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "Base de données spatio-temporelle pour les données de l'IoT"
+title: "Towards a Scalable Spatio-temporal Database for the IoT"
 date: 2018-11-30 20:40:24
 # image: '/assets/img/'
 description: Romain Rouvoy
@@ -12,28 +12,29 @@ tags:
 - graph
 - data
 categories:
-- research
-- iot
-introduction: Ce projet consiste à proposer une mise en œuvre du standard OGC SensorThings avec la technologie de stockage de graphes temporisés GreyCat
+- Research
+- Internship
+- Project
+introduction: This project consists in proposing an implementation of the OGC SensorThings standard with the GreyCat timer graph storage technology.
 ---
 
-# Contexte
-Ce projet s'inscrit dans le cadre du développement de systèmes logiciels pour l'Internet des Objets qui requièrent généralement l'acquisition et le stockage de grands volumes de données, éventuellement géolocalisées et, contribuées par des petits équipements connectés à Internet.
-Problématique
-Le nombre d'objets déployés dans la nature et la fréquence de remontée des données peut rapidement conduire à une explosion du volume de données qu'il est nécessaire de stocker de manière persistante.
+# Context
+This project is part of the development of software systems for the Internet of Things that generally require the acquisition and storage of large volumes of data, possibly geolocated and, contributed by small equipment connected to the Internet.
 
-Dès lors, nous souhaitons étudier différentes approches permettant de "compresser" des données issues de l'Internet des Objets. En particulier, nous nous intéressons à la technologie GreyCat, développée par des collègues de l'Université du Luxembourg, qui permet de stocker efficacement des données sous forme de graphe d'informations. Nous nous intéressons également au standard OGC SensorThings qui cible précisément la modélisation et le stockage de données pour des systèmes logiciels de l'IoT.
+The number of objects deployed in the wild and the frequency of data feed can quickly lead to an explosion in the amount of data that needs to be stored persistently.
+
+Therefore, we want to study different approaches to "_compress_" data from the Internet of Things. In particular, we are interested in the GreyCat technology, developed by colleagues from the University of Luxembourg, which makes it possible to effectively store data in the form of an information graph. We are also interested in the OGC SensorThings standard which specifically targets modeling and data storage for IoT software systems.
 
 
-# Travail à effectuer
-L'objectif de ce projet consiste donc à proposer et mettre en œuvre une implémentation efficace des API du standard OGC SensorThings à l'aide de la technologie GreyCat.
+# Objectives
+The goal of this project is to propose and implement an efficient implementation of OGC SensorThings APIs using GreyCat technology.
 
-Après avoir proposé une première implémentation de l'API SensorThings qui permettra de compresser temporellement des mesures IoT, le projet s'intéressera à l'indexation et la compression spatiale des données afin de réduire l'empreinte mémoire de données réparties dans une zone donnée.
+After having proposed a first implementation of the SensorThings API that will allow temporal compression of IoT measurements, the project will focus on the indexing and spatial compression of data in order to reduce the memory footprint of data distributed in a given area.
 
-# Bibliographie
+# Other information
+The developments in this project will apply the best practices of Agile Software Engineering, from the adoption of object-oriented developments, the application of design patterns, clean code, static analyzers, modular compilation chains, documentation of the code and the delivery in the form of a software container (Docker).
+
+# References
 1. Assaad Moawad, Thomas Hartmann, François Fouquet, Grégory Nain, Jacques Klein, Yves Le Traon: **Beyond discrete modeling: A continuous and efficient model for IoT**. MoDELS 2015: 90-99
 2. Thomas Hartmann, François Fouquet, Matthieu Jimenez, Romain Rouvoy, Yves Le Traon: **Analyzing Complex Data in Motion at Scale with Temporal Graphs**. SEKE 2017: 596-601
 3. Thomas Hartmann, François Fouquet, Assaad Moawad, Romain Rouvoy, Yves Le Traon: **GreyCat: Efficient What-If Analytics for Data in Motion at Scale**. CoRR abs/1803.09627 (2018)
-
-# Autres informations
-Les développements menés dans le cadre de ce projet appliqueront les bonnes pratiques de Génie Logiciel Agile, depuis la mise en œuvre d’un développement objet, l’application de design patterns, du clean code, l’utilisation d’analyseurs statiques, la mise en œuvre d’une chaine de compilation, la documentation du code développé et la livraison sous forme de conteneur logiciel (Docker).

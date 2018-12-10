@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Suivi de la consommation énergétique d'une machine virtuelle Java"
+title: "Monitoring the energy consumption of the JVM"
 date: 2018-12-09 14:42:28
 # image: '/assets/img/'
 description: Guillaume Fieni 
@@ -13,39 +13,27 @@ tags:
 - java
 categories:
 - Research
-- Energy
-introduction: Ce projet vise à analyser la consommation d'une machine virtuelle Java.
+- Internship
+introduction: This project aims at studying the energy consumption of key JVM components.
 ---
 
-Ce stage de fin d’études cible le développement d'une sonde interne à la machine virtuelle Java qui permette d'analyser finement la consommation en ressources (CPU, RAM) de ses différentes activitées afin de pouvoir isoler, évaluer et améliorer l'efficience énergétique d’applications s'exécutant sur la JVM.
-
-# Pré-requis
-
-- Bonne connaissances du langage C
-- Intérêt et curiosité pour le fonctionnement d’une machine virtuelle
-
-# Contexte
-
-Avec l'émergence du cloud, l'efficience énergétique est devenue une préoccupation majeure pour les administrateurs de systèmes logiciels. En effet, le cloud promeut une facturation des ressources matérielles en fonction de leur consommation.
-
-Dès lors, les administrateurs et les développeurs s'efforcent de travailler à réduire l'empreinte énergétique de leurs applications afin de minimiser la facture de l'infrastructure d'hébergement.
+This research internship focuses on the development of an internal probe for the _Java virtual machine_ (JVM) that allows to finely analyze the resource consumption (CPU, RAM) of its different activities in order to isolate, evaluate and improve its efficiency.
 
 
-# Problématique
+# Context
+With the emergence of the cloud, energy efficiency has become a major concern for software system administrators. Indeed, the cloud promotes a billing of the material resources according to their consumption. As a result, administrators and developers strive to reduce the energy footprint of their applications to minimize the cost of hosting infrastructure.
 
-Dans le contexte des applications Java, la machine virtuelle joue un rôle crucial en exécutant et en optimisant l'exécution du programme notamment grâce à la compilation à la volée (JIT) du bytecode en code machine.
+In the context of Java applications, the virtual machine plays a crucial role in executing and optimizing the execution of the program, notably through on-the-fly compilation (JIT) of the bytecode in machine code.
 
-Tandis que la machine virtuelle met en œuvre ce processus de manière totalement autonome, il reste difficile pour un développeur de comprendre quelles peuvent être les sources de la consommation de son application et ainsi identifier les leviers d'optimisation applicables.
+While the virtual machine implements this process in a completely autonomous way, it remains difficult for a developer to understand what can be the sources of energy consumption of her/his application and thus identify the appropriate optimization levers.
 
-# Travail à effectuer
+# Objectives
+This research internship therefore aims to develop an internal probe to the JVM in order to trace the activities and propose an energy model that allows to isolate _i)_ consumption specific to the Java virtual machine (_e.g._, garbage collector) of _ii)_ consumption objects instantiated and manipulated by the business application. The objective of this project is to be able to propose a fine mapping of the consumption of an object-oriented application in order to identify possible sources of wasted energy.
 
-Ce projet vise donc à développer une sonde interne à la JVM permettant de tracer les activitées et de proposer un modèle énergétique qui permette d'isoler i) la consommation propre à la machine virtuelle Java (e.g., ramasse-miettes) de ii) la consommation des objets instanciés et manipulés par l'application métier. L'objectif de ce projet étant de pouvoir proposer une cartographie fine de la consommation d'une application orientée objet afin d'en identifier les éventuelles sources de gâchis d'énergie.
+After documenting the internal functioning of the Java virtual machine, you will implement this energy probe based on existing profiling mechanisms [1].
+Then, you will drive its integration with the PowerAPI framework that is able to instantly provide the energy consumption of the virtual machine along its key components.
 
-Après vous être documenté sur le fonctionnement interne de la machine virtuelle Java, vous mettrez donc en œuvre le développement de cette sonde en vous appuyant sur les mécanismes de profilage existants. [1]
-Ensuite, vous conduirez son intégration avec la sonde énergétique PowerAPI qui est capable de fournir instantanément la consommation énergétique de la machine virtuelle dans sa globalité.
-
-# Bibliographie
-
-[1] https://github.com/torvalds/linux/tree/master/tools/perf/jvmti
-[2] Adel Noureddine, Romain Rouvoy, Lionel Seinturier: Monitoring energy hotspots in software - Energy profiling of software code. Autom. Softw. Eng. 22(3): 291-332 (2015)
-[3] Adel Noureddine, Syed Islam, Rabih Bashroush: Jolinar: analysing the energy footprint of software applications (demo). ISSTA 2016: 445-448
+# Bibliography
+1. https://github.com/torvalds/linux/tree/master/tools/perf/jvmti
+2. Adel Noureddine, Romain Rouvoy, Lionel Seinturier: **Monitoring energy hotspots in software - Energy profiling of software code**. Autom. Softw. Eng. 22(3): 291-332 (2015)
+3. Adel Noureddine, Syed Islam, Rabih Bashroush: **Jolinar: analysing the energy footprint of software applications (demo)**. ISSTA 2016: 445-448
