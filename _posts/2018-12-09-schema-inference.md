@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Inferring Data Schemas from RESTful Exchanges"
-date: 2018-12-09 15:27:25
+date: 2018-12-09 15:37:25
 image: '/assets/img/'
 description: Pierre Bourhis
 main-class: 'privacy'

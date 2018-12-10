@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Reconciliating Social Networks"
-date: 2018-12-09 15:27:36
+date: 2018-12-09 15:20:36
 image: '/assets/img/'
 description: Pierre Bourhis
 main-class: 'privacy'

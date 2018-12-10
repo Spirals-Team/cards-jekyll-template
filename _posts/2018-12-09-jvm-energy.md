@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Monitoring the energy consumption of the JVM"
-date: 2018-12-09 14:42:28
+date: 2018-12-09 16:27:36
 # image: '/assets/img/'
 description: Guillaume Fieni 
 main-class: 'energy'

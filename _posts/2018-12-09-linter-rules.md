@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Automatic Inference of Android Linter Rules"
-date: 2018-12-09 15:27:06
+date: 2018-12-09 15:29:42
 image: '/assets/img/'
 description: Sarra Habchi
 main-class: 'mobile'

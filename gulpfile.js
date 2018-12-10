@@ -77,7 +77,7 @@ gulp.task('js', function(){
  * Imagemin Task
  */
 gulp.task('imagemin', function() {
-	return gulp.src('src/img/**/*.{jpg,png,gif}')
+	return gulp.src('src/img/**/*.{jpg,png,gif,ico}')
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
 		.pipe(gulp.dest('assets/img/'));
@@ -101,4 +101,4 @@ gulp.task('watch', function () {
 gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
 
 // build to deploy
-gulp.task('build', ['js', 'stylus', 'jekyll-build']);
+gulp.task('build', ['js', 'stylus', 'imagemin','jekyll-build']);
