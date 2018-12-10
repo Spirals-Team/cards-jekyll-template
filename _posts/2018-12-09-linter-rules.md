@@ -12,7 +12,6 @@ tags:
 - java
 - lint
 categories:
-- Research
 - Internship
 # twitter_text:
 introduction: This project targets the automatic inference of static analysis rules from code samples.

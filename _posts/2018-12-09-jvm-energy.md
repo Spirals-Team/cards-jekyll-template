@@ -12,7 +12,6 @@ tags:
 - jvm
 - java
 categories:
-- Research
 - Internship
 introduction: This project aims at studying the energy consumption of key JVM components.
 ---

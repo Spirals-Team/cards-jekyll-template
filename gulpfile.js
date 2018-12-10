@@ -59,7 +59,7 @@ gulp.task('stylus', function(){
 		// .pipe(gulp.dest('_includes'))
 		.pipe(browserSync.reload({stream:true}))
 		// .pipe(gulp.dest('_includes'))
-		.pipe(gulp.dest('assets/css'));
+		.pipe(gulp.dest('assets/css/'));
 });
 
 /**

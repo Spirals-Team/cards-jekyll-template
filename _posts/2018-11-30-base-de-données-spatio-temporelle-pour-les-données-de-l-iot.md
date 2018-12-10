@@ -12,9 +12,7 @@ tags:
 - graph
 - data
 categories:
-- Research
 - Internship
-- Project
 introduction: This project consists in proposing an implementation of the OGC SensorThings standard with the GreyCat timer graph storage technology.
 ---
 

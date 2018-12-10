@@ -11,7 +11,6 @@ tags:
 - data
 - social network
 categories:
-- Research
 - Internship
 # twitter_text:
 introduction: This project aims at identifying 

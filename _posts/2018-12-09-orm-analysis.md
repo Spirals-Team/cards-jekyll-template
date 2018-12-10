@@ -11,7 +11,6 @@ tags:
 - java
 - database
 categories:
-- Research
 - Internship
 # twitter_text:
 introduction: This project aims at analyzing the usage of object-relational mapping (ORM) solutions.

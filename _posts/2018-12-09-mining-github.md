@@ -12,7 +12,6 @@ tags:
 - java
 - machine learning
 categories:
-- Research
 - Internship
 introduction: This project aims to analyze the key topics covered in the GitHub issues of open source projects.
 ---

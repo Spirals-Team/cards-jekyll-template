@@ -11,7 +11,6 @@ tags:
 - data
 - social network
 categories:
-- Research
 - Internship
 # twitter_text:
 introduction: Ce projet vise à déterminer l'organisation des données à partir des contenus exposés par des API REST.
