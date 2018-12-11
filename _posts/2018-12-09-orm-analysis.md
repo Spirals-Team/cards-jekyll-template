@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Dynamic Analysis of ORM Solutions"
 date: 2018-12-09 15:27:42
 image: '/assets/img/'
@@ -22,3 +22,5 @@ This research internship is part of the Momentum project "_Managing your data wi
 Social networks, like other web applications, are now massively adopting the REST architectural style as an API design standard that allows them to share information with authorized third parties. While this mediation layer between the third parties and the database plays the role of controlling access to the nature of the data that a third party can retrieve, it can also reveal information about the structure of the database to the database.
 
 # Objectives
+
+This research internship consists in automatically instrumenting mainstream _object-relational mapping_ (ORM) solutions used by major frameworks (_e.g._, Spring) to observe the ratio of information reified in memory and accessed by the application.
