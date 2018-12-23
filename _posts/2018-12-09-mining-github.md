@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Mining Development Topics from GitHub Issues"
 date: 2018-12-09 15:27:13
 image: '/assets/img/'

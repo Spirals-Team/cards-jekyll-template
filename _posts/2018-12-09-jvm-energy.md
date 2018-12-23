@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Monitoring the energy consumption of the JVM"
 date: 2018-12-09 16:27:36
 # image: '/assets/img/'

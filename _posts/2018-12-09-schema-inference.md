@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Inferring Data Schemas from RESTful Exchanges"
 date: 2018-12-09 15:37:25
 image: '/assets/img/'

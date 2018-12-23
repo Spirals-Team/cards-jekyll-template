@@ -56,6 +56,13 @@ for theme, category-color in themes
         .box-body
             h2
                 color category-color
+            .series a
+                color: #fff
+                background: category-color
+                border 1px solid category-color
+                &:hover
+                    color category-color
+                    background: #fff
             .tags a
                 color category-color
                 border 1px solid category-color

@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Automatic Inference of Android Linter Rules"
 date: 2018-12-09 15:29:42
 image: '/assets/img/'

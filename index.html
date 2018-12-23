@@ -11,7 +11,12 @@ layout: default
             </span>
             <div class="box-body">
                 <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
-                <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
+                <br>
+                <div class="series">
+                    {% for cat in post.categories %}
+                    <a href="{{site.baseurl}}/series/#{{cat | slugify }}">{{ cat }}</a>
+                    {% endfor %}
+                </div>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <h2 class="post-title" itemprop="name">
                         {{ post.title }}
@@ -22,8 +27,11 @@ layout: default
                 </a>
                 <div class="tags">
                     {% for tag in post.tags %}
-                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
+                </div>
+                <div align="right">
+                    <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
                 </div>
             </div>
         </article>
