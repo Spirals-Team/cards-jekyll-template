@@ -45,19 +45,14 @@ The results of this research project, _i.e._ 1) the integration of JavaBIP into 
 
 * M0-M6: State of the art on the correct coordination of concurrent cloud resources and cloud applications.
   Milestone 1: Submission of this SotA to a top level review (_e.g._ ACM Computing Surveys).
-
 * M6-M12 - Integration of JavaBIP inside OCCIware (_i.e._ **first step**), and validation against partner's applications.
   Milestone 2: Submission of an international conference paper (_e.g._ IEEE CLOUD).
-
 * M12-M18 - Design and implementation of the cloud application self-adaptiveness specification language (_i.e._ **second step**), and validation against partner's applications.
   Milestone 3: Submission of an international conference paper (_e.g._ COORDINATION).
-
 * M18-M24 - Design and implementation of learning algorithms and infrastructure (_i.e._ **third step**), and validation against partner's applications.
   Milestone 4: Submission of an international conference paper (_e.g._ ICML).
-
 * M24-M30 - Integration of the three steps, and validation against partner's applications.
   Milestone 5: Submission of a top level review article (_e.g._ IEEE TCC).
-
 * M30-M36 - PhD thesis writing.
   Milestone 6: PhD thesis defense.
 
