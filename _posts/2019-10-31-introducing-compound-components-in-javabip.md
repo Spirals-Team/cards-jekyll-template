@@ -5,7 +5,7 @@ title: "Introducing compound components in JavaBIP"
 date: 2019-10-31 11:21:01
 # image: '/assets/img/'
 description: Simon Bliudze
-main-class: 'components'
+main-class: 'java'
 # color:
 tags:
 - java
