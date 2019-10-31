@@ -2260,7 +2260,7 @@ footer p, footer a {
 }
 
 .post-java .header-post h1, .post-java .header-site h1 {
-	text-shadow: 3px 3px #62890f
+	text-shadow: 3px 3px #20368c
 }
 
 .post-java .bar-header .logo a {
@@ -2323,13 +2323,13 @@ footer p, footer a {
 }
 
 .post-java .ribbon span:before {
-	border-left: 3px solid #55780d;
-	border-top: 3px solid #55780d
+	border-left: 3px solid #0562dc;
+	border-top: 3px solid #0562dc
 }
 
 .post-java .ribbon span:after {
-	border-right: 3px solid #55780d;
-	border-top: 3px solid #55780d
+	border-right: 3px solid #0562dc;
+	border-top: 3px solid #0562dc
 }
 
 .post-java footer {
