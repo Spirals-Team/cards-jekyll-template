@@ -9,6 +9,7 @@ main-class: 'java'
 # color:
 tags:
 - java
+- BIP
 - components
 - coordination
 categories:
