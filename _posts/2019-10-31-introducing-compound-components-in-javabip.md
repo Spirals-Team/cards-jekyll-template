@@ -21,7 +21,7 @@ The goal of the project is to introduce compound components in JavaBIP. Indeed, 
 
 # Context
 
-This project focusses on [JavaBIP](https://github.com/sbliudze) [3], which is an open-source Java implementation of the [BIP](http://www.bliudze.me/simon/articles/javabip-spe.pdf) (Behaviour-Interaction-Priority) framework [1, 2] for the coordination of concurrent components.
+This project focusses on [JavaBIP](https://github.com/sbliudze) [3], which is an open-source Java implementation of the [BIP](http://www-verimag.imag.fr/New-BIP-tools.html) (Behaviour-Interaction-Priority) framework [1, 2] for the coordination of concurrent components.
 
 A BIP model consists of a set of components and connectors that define all possible synchronisations among the components (see the figure below). Atomic components model the application activities, from the control point of view, as Finite State Machines (FSMs). Connectors define possible synchronisations among the transitions of these FSMs and the associated data transfer rules.
 
@@ -50,4 +50,4 @@ For additional information and to apply please send an e-mail to [Simon Bliudze]
 
 1. Simon Bliudze and Joseph Sifakis. The Algebra of Connectors — Structuring interaction in BIP. In Proceedings of the 7th ACM & IEEE International Conference on Embedded Software, EMSOFT 2007, page 11–20, Salzburg, Austria, October 2007. ACM SigBED. [PDF](http://www.bliudze.me/simon/articles/acp-bliudze-sifakis-emsoft07.pdf)
 1. Ananda Basu, Saddek Bensalem, Marius Bozga, Jacques Combaz, Mohamad Jaber, Thanh-Hung Nguyen and Joseph Sifakis. Rigorous Component-Based System Design Using the BIP Framework. IEEE Software 2011. [DOI](https://doi.org/10.1109/MS.2011.27)
-1. Simon Bliudze, Anastasia Mavridou, Radoslaw Szymanek, and Alina Zolotukhina. Exogenous coordination of concurrent software components with JavaBIP. Software: Practice and Experience, 47(11):1801–1836, November 2017. [PDF](http://www.bliudze.me/simon/articles/javabip-spe.pdf)
+1. Simon Bliudze, Anastasia Mavridou, Radoslaw Szymanek, and Alina Zolotukhina. Exogenous coordination of concurrent software components with JavaBIP. _Software: Practice and Experience_, **47**(11):1801–1836, November 2017. [PDF](http://www.bliudze.me/simon/articles/javabip-spe.pdf)
