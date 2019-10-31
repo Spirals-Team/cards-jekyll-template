@@ -44,7 +44,7 @@ The internship will be carried out in the Spirals project team at Inria Lille �
 
 # Contact and application
 
-For additional information and to apply please send an e-mail to [Simon Bliudze](mailto:simon.bliudze@inria.fr&subject=JavaBIP compounding internship) (in English or French) with the subject “JavaBIP compounding internship”.
+For additional information and to apply please send an e-mail to [Simon Bliudze](mailto:simon.bliudze@inria.fr?&subject=JavaBIP compounding internship) (in English or French) with the subject “JavaBIP compounding internship”.
 
 # References
 
