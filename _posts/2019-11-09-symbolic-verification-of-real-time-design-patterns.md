@@ -4,7 +4,7 @@ comments: true
 title: "Symbolic verification of real-time design patterns"
 date: 2019-11-09 13:56:49
 # image: '/assets/img/'
-description:
+description: Simon Bliudze
 main-class: 'misc'
 # color:
 tags:
@@ -41,4 +41,4 @@ For additional information and to apply please send me an [e-mail](mailto:simon.
 
 ## Reference
 
-1. Paul Attie, Eduard Baranov, Simon Bliudze, Mohamad Jaber, and Joseph Sifakis. A general framework for architecture composability. Formal Aspects of Computing, 18(2):207–231, April 2016. Open access. [ [DOI](http://dx.doi.org/10.1007/s00165-015-0349-8) ] 
+1. Paul Attie, Eduard Baranov, Simon Bliudze, Mohamad Jaber, and Joseph Sifakis. A general framework for architecture composability. _Formal Aspects of Computing_, 18(2):207–231, April 2016. Open access. [ [DOI](http://dx.doi.org/10.1007/s00165-015-0349-8) ] 
