@@ -5,7 +5,7 @@ title: "Symbolic verification of real-time design patterns"
 date: 2019-11-09 13:56:49
 # image: '/assets/img/'
 description:
-main-class:
+main-class: 'misc'
 # color:
 tags:
 - BIP
