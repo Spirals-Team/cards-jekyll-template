@@ -11,6 +11,7 @@ tags:
 - android
 - java
 - state
+- JavaBIP
 categories:
 - Internship
 # twitter_text:
@@ -21,7 +22,7 @@ introduction: The goal of the internship is to design and implement self-healing
 
 With [Sergio Mover](http://www.sergiomover.eu/) from [LIX](http://www.lix.polytechnique.fr/) (École Polytechnique, Paris), we are looking for a student interested in working on "self-healing" Android applications.
 
-The goal of the internship is to design and implement self-healing techniques for Event-Driven frameworks. Given an Android app, we want to automatically synthesize a new version of the app that avoids protocol violations--for example removing particular interleavings of events. 
+The goal of the internship is to design and implement self-healing techniques for Event-Driven frameworks. Given an Android app, we want to automatically synthesize a new version of the app that avoids protocol violations—for example removing particular interleavings of events. 
 
 ## Project Description
 
