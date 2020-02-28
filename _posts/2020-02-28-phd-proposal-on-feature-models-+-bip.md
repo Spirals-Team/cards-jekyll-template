@@ -77,7 +77,7 @@ provide this capability, Spirals is conducting a study of mechanisms
 for monitoring, taking decisions, and automatically reconfiguring
 software at run-time and at various scales.
 
-## Proposed reseach project
+## Proposed research project
 
 The goal of this research project is to design a novel framework for
 safe _dynamic_ reconfiguration of cloud applications by integrating
@@ -101,7 +101,7 @@ current one).  Beyond detecting such problems, additional monitoring
 techniques could be applied to avoid them whenever possible.
 
 **The third step** will consist in designing additional components
-and interfaces to be plugged into the JavaBIP model developped in step
+and interfaces to be plugged into the JavaBIP model developed in step
 1 so as to guide the reconfiguration process ensuring _liveness and
 optimality_.  In order to provide flexibility to the designers and
 maintainers of cloud applications and platforms, we are planning to
