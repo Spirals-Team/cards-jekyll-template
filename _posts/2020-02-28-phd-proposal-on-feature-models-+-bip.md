@@ -4,7 +4,7 @@ comments: false
 title: "Safe dynamic reconfiguration of cloud applications"
 date: 2020-02-28 15:41:07
 image: '/assets/img/'
-description: Laurence Duchien and Simon Bliudze
+description: Simon Bliudze and Laurence Duchien 
 main-class: 'cloud'
 # color:
 tags:
