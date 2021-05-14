@@ -9,7 +9,7 @@ main-class: 'cloud'
 # color:
 tags:
 - cloud computing
-- formal method
+- formal methods
 - java
 categories:
 - PhD

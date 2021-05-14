@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: ""
+title: "Reasoning with Explanation for missing data in a constraint setting"
 date: 2020-02-28 15:41:07
 image: '/assets/img/'
 description: Pierre Bouhrhis
